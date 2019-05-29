@@ -225,23 +225,42 @@ body {
     display:block;
     clear:both;
     width: 100%;
+    margin-bottom:3%;
   }
  
+  #masthead{
+    height:25%;
+  }
 nav {
   margin-top:0;
   float:none;
-  padding-top:10px;
+  
   
 }
+
   nav a:first-child {
-    margin-left: 125px;
+    margin-left: 25%;
   }
-/*    
+
+   
   nav a {
-  
-    padding-left: 15px;
+   
+    padding-left: 3%;
+    margin-left: 3%;
     line-height: 18px;
-    
-  } */
+   
+  }
+  
+  .auth-image {
+    float: none;
+    display:block;
+    width: 100%;
+    height: auto;
+    }
+  
+    #main-container {
+      padding-top: 30%;
+       }
+
   } 
   
