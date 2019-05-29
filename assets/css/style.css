@@ -226,7 +226,22 @@ body {
     clear:both;
     width: 100%;
   }
-
+ 
+nav {
+  margin-top:0;
+  float:none;
+  padding-top:10px;
   
+}
+  nav a:first-child {
+    margin-left: 125px;
+  }
+/*    
+  nav a {
+  
+    padding-left: 15px;
+    line-height: 18px;
+    
+  } */
   } 
   
