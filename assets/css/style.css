@@ -218,7 +218,20 @@ body {
   
   /* Media queries*/
 
-  /* max-width=980px*/
+  /* max-width=768px*/
+
+  @media screen and (max-width:768px){
+
+       
+    .container {
+      max-width: 600px;
+    }
+    .work {
+      width: 248px;
+    }
+     }
+
+  /* max-width=640px*/
   
  @media screen and (max-width:640px){
 
@@ -239,7 +252,6 @@ body {
     
   }
 
-
   nav a {
     
       padding-left: 3%;
@@ -251,7 +263,7 @@ body {
 }
   
   /*logo- About page*/
-  
+
   .auth-image {
       float: none;
       display:block;
@@ -275,4 +287,7 @@ body {
   }
 
    } 
+
+
+
   
