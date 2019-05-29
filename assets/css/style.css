@@ -221,46 +221,58 @@ body {
   /* max-width=980px*/
   
  @media screen and (max-width:640px){
+
+  /* header*/
   #logo {
     display:block;
-    clear:both;
     width: 100%;
-    margin-bottom:3%;
+    margin-bottom:1%;
   }
  
   #masthead{
     height:25%;
   }
-nav {
-  margin-top:0;
-  float:none;
-  
-  
-}
+
+  nav {
+    margin-top:0;
+    float:none;
+    
+  }
+
+
+  nav a {
+    
+      padding-left: 3%;
+      margin-left: 3%;
+  }
 
   nav a:first-child {
     margin-left: 25%;
-  }
-
-   
-  nav a {
-   
-    padding-left: 3%;
-    margin-left: 3%;
-    line-height: 18px;
-   
-  }
+}
+  
+  /*logo- About page*/
   
   .auth-image {
-    float: none;
-    display:block;
-    width: 100%;
-    height: auto;
+      float: none;
+      display:block;
+      width: 100%;
+      height: auto;
     }
-  
-    #main-container {
-      padding-top: 30%;
-       }
 
-  } 
+  /*main-container*/
+
+  #main-container {
+        padding-top: 32%;
+    }
+
+  /*images - Portfolio page*/
+
+
+  .work {
+    float: none;
+    width: 100%;
+   
+  }
+
+   } 
   
