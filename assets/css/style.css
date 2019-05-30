@@ -218,7 +218,21 @@ body {
   
   /* Media queries*/
 
-  /* max-width=768px*/
+    /* max-width=980px*/
+
+  @media screen and (max-width:980px){
+
+    .container {
+        max-width: 700px;
+    }
+
+     /*images - Portfolio page*/
+    .work {
+      width: 299px;
+    }
+  }
+
+    /* max-width=768px*/
 
   @media screen and (max-width:768px){
 
@@ -226,43 +240,45 @@ body {
     .container {
       max-width: 600px;
     }
+
+     /*images - Portfolio page*/
     .work {
       width: 248px;
     }
-     }
+  }
 
-  /* max-width=640px*/
+   /* max-width=640px*/
   
  @media screen and (max-width:640px){
 
-  /* header*/
-  #logo {
-    display:block;
-    width: 100%;
-    margin-bottom:1%;
-  }
- 
-  #masthead{
-    height:25%;
-  }
-
-  nav {
-    margin-top:0;
-    float:none;
-    
-  }
-
-  nav a {
-    
-      padding-left: 3%;
-      margin-left: 3%;
-  }
-
-  nav a:first-child {
-    margin-left: 25%;
-}
+   /* header*/
+    #logo {
+      display:block;
+      width: 100%;
+      margin-bottom:1%;
+    }
   
-  /*logo- About page*/
+    #masthead{
+      height:25%;
+    }
+
+    nav {
+      margin-top:0;
+      float:none;
+      
+    }
+
+    nav a {
+      
+        padding-left: 3%;
+        margin-left: 3%;
+    }
+
+    nav a:first-child {
+      margin-left: 25%;
+  }
+  
+   /*logo- About page*/
 
   .auth-image {
       float: none;
@@ -271,13 +287,13 @@ body {
       height: auto;
     }
 
-  /*main-container*/
+   /*main-container*/
 
   #main-container {
         padding-top: 32%;
     }
 
-  /*images - Portfolio page*/
+   /*images - Portfolio page*/
 
 
   .work {
